@@ -1,5 +1,5 @@
 import React from 'react';
-import { MenuBar, MenuBarItem } from '../components/index';
+import { MenuBar, MenuBarItem, Title } from '../components/index';
 
 const Home = () => {
     return (
@@ -10,6 +10,7 @@ const Home = () => {
                 <MenuBarItem name="활동" to="/history" />
                 <MenuBarItem name="설정" to="/setting" />
             </MenuBar>
+            <Title text="시작하기 🚀"/>
         </>
     )
 }
