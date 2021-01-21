@@ -1,0 +1,21 @@
+.Input__box {
+    margin-top: 1rem;
+}
+
+.Input {
+    width: calc(100% - 2rem);
+    border: none;
+    height: 3.5rem;
+    font-family: 'NotoSansKR-Regular';
+    font-size: 1.15rem;
+    padding: 0 1rem 0 1rem;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 5px rgba(195, 195, 195, 0.3);
+    transition: box-shadow 0.5s;
+}
+
+.Input:focus {
+    outline: none;
+    box-shadow: 0 0 10px 5px rgba(150, 150, 150, 0.3);
+    transition: box-shadow 0.5s;
+}
