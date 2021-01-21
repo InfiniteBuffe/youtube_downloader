@@ -1,0 +1,30 @@
+.menuBar__item {
+    float: left;
+    margin: auto;
+    width: 25%;
+    height: 3.5rem;
+    background-color: transparent;
+    border: none;
+    user-select: none;
+    cursor: pointer;
+    color: rgb(180, 180, 180);
+}
+
+.menuBar__item > .name {
+    font-family: 'NotoSansKR-Medium';
+    font-size: 1.35rem;
+    line-height: 3.5rem;
+    text-align: center;
+}
+
+.menuBar__item:hover {
+    color:rgb(130, 130, 130);
+}
+
+.menuBar__item:active {
+    color:rgb(70, 70, 70);
+}
+
+.menuBar__item--active, .menuBar__item--active:hover, .menuBar__item--active:active {
+    color: rgb(30, 30, 30);
+}

@@ -11,8 +11,9 @@ function createWindow() {
         webPreferences: {
             nodeIntegration: true
         },
+        resizable: false
     });
-    win.setMenu(null)
+    // win.setMenu(null)
 
     // React를 빌드할 경우 결과물은 build 폴더에 생성되기 때문에 loadURL 부분을 아래와 같이 작성합니다.
     const startUrl = process.env.ELECTRON_START_URL || url.format({
