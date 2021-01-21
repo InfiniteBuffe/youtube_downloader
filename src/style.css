@@ -4,6 +4,11 @@
     font-size: 16px;
 }
 
+::selection {
+    background: rgb(145, 145, 255);
+    color: #fff;
+ }
+
 .Container {
     width: 450px;
     margin: auto;
